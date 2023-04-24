@@ -32,7 +32,7 @@ imageIndexes.forEach(i => {
   //show a pop up
   image.addEventListener('click', () => {
     popup.style.transform ='translateY(0)';
-    selectedImage.src = `/movies/${i}.jpeg`;
+    selectedImage.src = `./movies/${i}.jpeg`;
     selectedImage.alt = 'fictional character';    
     popup2.innerHTML = moviePlot[i];
     
